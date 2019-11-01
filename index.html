@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pauline M. Brown</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+
+	<div class="inside-rectangle">
+
+		<div class="navbar">
+			<img src="img/logo.png" width="80px" height="auto">
+			<ul>
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactsModalLong">
+			  		Contacts
+					</button>
+				</li>
+			</ul>
+		</div>
+
+		<div class="boxes" id="home">
+			<a href="https://github.com/PaulineMalova/My-Digital-CV/tree/master/Quiz%2012" target="blank">
+				<div class="box1 floater">
+					<h1>html</h1>
+				</div>
+			</a>
+			<div class="box2 floater">
+				<h1>flask</h1>
+			</div>
+			<a href="https://github.com/PaulineMalova/Automated-Reorder-System/tree/master/SimpleReorderModule" target="blank">
+				<div class="box3 floater">
+					<h1>django</h1>
+				</div>
+			</a>	
+			<a href="https://github.com/PaulineMalova/Note-taking-App" target="blank">
+				<div class="box4 floater">
+					<h1>android</h1>
+				</div>
+			</a>	
+			<a href="https://github.com/PaulineMalova/JavaScript/tree/master/JS%20Assignment14/greenskiosk" target="blank">
+				<div class="box5 floater">
+					<h1>java script</h1>
+				</div>
+			</a>	
+		</div>
+
+		<div class="talk">
+
+			<div class="footer">
+				<span class="github-icon icons"><i class="fab fa-github-square"></i></span>
+				<span class="linkedin-icon icons"><i class="fab fa-linkedin"></i></span>
+				<span class="facebook-icon icons"><i class="fab fa-facebook-square"></i></span>
+				<span class="twitter-icon icons"><i class="fab fa-twitter-square"></i></span>
+				<span class="instagram-icon icons"><i class="fab fa-instagram"></i></span>
+			
+			</div>
+
+			<div class="talking">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#talkModal" data-whatever="@mdo">
+					Let's talk
+				</button>
+				
+				<div class="modal fade" id="talkModal" tabindex="-1" role="dialog" aria-labelledby="talkModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="talkModalLabel">New message</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <form>
+				          <div class="form-group">
+				            <label for="recipient-name" class="col-form-label">Sender's email address:</label>
+				            <input type="email" class="form-control" id="sender-email">
+				          </div>
+				          <div class="form-group">
+				            <label for="message-text" class="col-form-label">Message:</label>
+				            <textarea class="form-control" id="message-text"></textarea>
+				          </div>
+				        </form>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Send message</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+
+		</div>
+
+			<!-- Modal -->
+		<div class="modal fade" id="contactsModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      	<div class="modal-header">
+			        	<h5 class="modal-title" id="exampleModalLongTitle">Contacts</h5>
+			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          		<span aria-hidden="true">×</span>
+			        	</button>
+			      	</div>
+			      	<div class="modal-body">
+			        	...
+			      	</div>
+			      	<div class="modal-footer">
+			        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        	<button type="button" class="btn btn-primary">Save changes</button>
+			      	</div>
+			    </div>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>

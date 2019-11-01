@@ -1,0 +1,179 @@
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: #000;
+}
+
+html, body{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+}
+
+.inside-rectangle{
+	background-color: #000;
+	width: 90%;
+	height: 90%;
+	margin: 2.5% auto;
+	overflow: auto;
+}
+
+.inside-rectangle .navbar{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.inside-rectangle .navbar img{
+	float: left;
+}
+
+.inside-rectangle .navbar ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+
+.inside-rectangle .navbar ul li{
+	display: inline-block;
+	float: left;
+}
+
+.inside-rectangle .navbar ul li a{
+	color: #eee;
+	text-decoration: none;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.inside-rectangle .navbar ul li a:hover{
+	color: #ccc;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.inside-rectangle .navbar ul li a.active{
+	color: #808080;
+	font-weight: bold;
+}
+
+.inside-rectangle .navbar ul li button{
+	background-color: #000;
+	border: none;
+	padding: 0px 0px 0px 10px;
+}
+
+.inside-rectangle .navbar ul li button:hover{
+	color: #ccc;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.inside-rectangle .boxes{
+	width: 90%;
+	margin: 2.5% auto 0 auto;
+	text-align: center;
+	color: #ccc;
+}
+
+.inside-rectangle .boxes .floater{
+	float: left;
+	background-color: #C0C0C0;
+	width: 20%;
+	font-family: 'Montserrat', sans-serif;
+	height: 200px;
+	margin-top: 50px;
+	transition: transform .5s ease;
+	color: #000000;
+	font-size: 20px;
+	padding-top: 45px;
+}
+
+.inside-rectangle .boxes .floater:hover{
+	transform: scale(1.3);
+}
+
+.inside-rectangle .boxes .floater h1{
+	font-weight: 600;
+}
+
+.inside-rectangle .boxes .box3{
+	height: 300px;
+	margin-top: 0px;
+	padding-top: 90px;
+}
+
+.inside-rectangle .boxes .box3 h1{
+	font-weight: 700;
+}
+
+.inside-rectangle .talk{
+	float: right;
+	margin-right: 5%;
+	margin-top: 15%;
+	width: 30%;
+}
+
+.talk .talking{
+	float: right;
+}
+
+.talk .talking .btn-primary{
+	background-color: #eee;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+}
+
+.modal-content{
+	background-color: #d8dbde;
+}
+
+.footer{
+	float: left;
+}
+
+.footer .icons{
+	float: left;
+}
+
+.github-icon{
+	display: block;
+	font-size: 30px;
+	color: #eee;
+	padding-right: 20px;
+}
+
+.linkedin-icon{
+	display: block;
+	color: #eee;
+	font-size: 30px;
+	padding-right: 20px;
+}
+
+.facebook-icon{
+	display: block;
+	color: #eee;
+	font-size: 30px;
+	padding-right: 20px;
+}
+
+.twitter-icon{
+	display: block;
+	color: #eee;
+	font-size: 30px;
+	padding-right: 20px;
+}
+
+.instagram-icon{
+	display: block;
+	color: #eee;
+	font-size: 30px;
+	padding-right: 20px;
+}
