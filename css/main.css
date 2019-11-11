@@ -177,3 +177,61 @@ html, body{
 	font-size: 30px;
 	padding-right: 20px;
 }
+
+/*ABOUT*/
+.inside-rectangle .about{
+	width: 90%;
+	margin: 6.5% auto 1.9% auto;
+	text-align: center;
+	color: #ccc;
+}
+
+.about h1{
+	font-size: 55px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	padding: 0;
+	margin: 0;
+	color: #ffffff;
+	margin: 0px 0px 10px 0px;
+}
+
+.about h1 strong{
+	color: #ccc;
+}
+
+.about h4{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	padding: 0;
+	margin: 0px 0px 15px 0px;
+}
+
+.about p{
+	font-family: 'Work Sans', sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	padding: 0;
+	margin: 0px 0px 15px 0px;
+}
+
+.about .btn-primary{
+	background-color: #eee;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+}
+
+.about .btn-primary a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.inside-rectangle .about-talk{
+	float: right;
+	margin-right: 5%;
+	margin-top: 10%;
+	width: 30%;
+}
