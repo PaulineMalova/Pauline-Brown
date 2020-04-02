@@ -235,3 +235,20 @@ html, body{
 	margin-top: 10%;
 	width: 30%;
 }
+
+/* WEB PAGES */
+.web img{
+	width: 99%;
+	height: 240px;
+	padding-top: 30px;
+}
+
+.webbox{
+	width: 33%;
+	float: left;
+}
+
+.midbox{
+	margin: 10% auto;
+	overflow: auto;
+}
